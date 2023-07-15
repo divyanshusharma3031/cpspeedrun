@@ -1,0 +1,196 @@
+*{
+    padding:0;
+    margin:0;
+}
+#container
+{
+    color:#f7c08a ;
+}
+#innercontainer{
+
+    border:2px solid black;
+    box-shadow:2px 2px 10px rgba(0, 0, 0, 0.747);
+    width: 90vw;
+    margin-bottom:3rem;
+}
+#inner{
+    display: flex;
+    position: relative;
+    top:10rem;
+    justify-content: center;
+}
+.list1{
+    color:black !important;
+    font-weight: 1000;
+    font-size:20px;
+    border-bottom: 1px solid black;
+}
+.list{
+    color:rgb(255, 251, 251)!important;
+    text-align: center;
+    font-size: 18px;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+.elements0{
+    color:rgb(255, 251, 251)!important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width:12vw;
+    height: 3rem;
+}
+.elements1{
+    color:rgb(255, 251, 251)!important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:25vw;
+    height: 3rem;
+}
+.elements2{
+    color:rgb(255, 251, 251)!important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:15vw;
+    height: 3rem;
+}
+.elements3{
+    color:rgb(255, 251, 251)!important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:14vw;
+    height: 3rem;
+}
+.elements4{
+    color:rgb(255, 251, 251)!important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:23.5vw;
+    height: 3rem;
+}
+
+#space{
+    height:0.7rem;
+}
+
+footer{
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    background-color:#222327;
+    font-size:18px;
+    color:white;
+    position:relative;
+    top:8.5rem;
+}
+
+#gif
+{
+    position:relative;
+    bottom:1.6rem;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option{
+    padding:10px 10px;
+    font-size:17px;
+    margin-right:1rem;
+    margin-bottom:1rem;
+    background-color:#29fd53;
+    width:5rem;
+    position:relative;
+    top:9rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+.first{
+    display:flex;
+    justify-content:center;
+}
+
+
+#form1{
+    position: relative;
+    top:6rem;
+    display:flex;
+    justify-content: center;
+}
+#search1{
+    position: relative;
+    display: inline;
+    height: 2.5rem;
+    width:25rem;
+    border-radius: 7px;
+    padding:2px 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+#searchicon{
+    font-size: 2rem;
+    color:orange;
+    cursor: pointer;
+}
+#labelsearch{
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
