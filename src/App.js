@@ -15,8 +15,8 @@ function App() {
       <BrowserRouter>
         <Header/>
         <Routes>
-          <Route path="/CF-Speedrun" element={<Questions />} />
-          <Route path="/CF-Speedrun/about" element={<About />} />
+          <Route path="/cpspeedrun" element={<Questions />} />
+          <Route path="/cpspeedrun/about" element={<About />} />
         </Routes>
         <Footer/>
       </BrowserRouter>
